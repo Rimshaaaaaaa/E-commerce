@@ -1,0 +1,122 @@
+.footer-wrapper {
+    background: linear-gradient(135deg, #f78fb3, #f06292); /* richer pink gradient */
+    color: #2e0a1e; /* dark text for readability */
+    padding: 50px 20px 20px 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Top Info Cards */
+  .topInfo .info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .topInfo .info-card p {
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  
+  .topInfo .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
+  
+  /* Links Section */
+  .linksWrap h5 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff; 
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  }
+  
+  .linksWrap ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .linksWrap ul li a:hover {
+    color: #ffebf0;
+    transform: translateX(5px);
+  }
+  
+  /* Newsletter Form */
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: none;
+    width: 220px;
+    max-width: 100%;
+  }
+  
+  .newsletter-form button {
+    background: #fff;
+    color: #d81b60; /* darker pink for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  
+  /* Social Icons */
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ffebf0;
+    transform: scale(1.2);
+  }
+  
+  /* Copyright */
+  .footer-wrapper p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .topInfo .info-card {
+      margin-bottom: 25px;
+    }
+  
+    .linksWrap {
+      text-align: center;
+    }
+  
+    .newsletter-form {
+      justify-content: center;
+    }
+  
+    .social-icons {
+      margin-top: 15px;
+    }
+  }
+  

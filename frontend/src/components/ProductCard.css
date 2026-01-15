@@ -1,0 +1,110 @@
+.product-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    width: 280px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 26px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Image */
+  .product-image {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    background: #fff5f8;
+    padding: 10px;
+  }
+  
+  /* Info */
+  .product-info {
+    padding: 12px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .product-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  /* 🔥 FIXED PRICE */
+  .product-price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    background: #965c6f;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 6px 0;
+  }
+  
+  .product-description {
+    font-size: 0.8rem;
+    color: #b87b7b;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  /* Primary Button */
+  .add-to-cart {
+    flex: 1;
+    background: linear-gradient(135deg, #ff4d8d, #ff1f6d);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  
+  .add-to-cart:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(255, 31, 109, 0.4);
+  }
+  
+  /* Secondary Button */
+  .save-wishlist {
+    flex: 1;
+    background: #fff;
+    color: #ff1f6d;
+    border: 1.5px solid #ff1f6d;
+    border-radius: 10px;
+    padding: 9px 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  
+  .save-wishlist:hover {
+    background: #ff1f6d;
+    color: #fff;
+  }
+  
+  /* Saved State */
+  .save-wishlist.added {
+    background: #ff1f6d;
+    color: #fff;
+    border-color: #ff1f6d;
+  }
+  

@@ -1,0 +1,128 @@
+/* 🌸 Cart Page Wrapper */
+.cart-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fbe8f0; /* soft blush background */
+  border-radius: 20px;
+  box-shadow: 8px 8px 25px #e0c1d9, -8px -8px 25px #ffffff; /* soft luxury shadow */
+}
+
+/* 🌸 Heading */
+.cart-page h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 900;
+  background: linear-gradient(90deg, #f7a1c4, #fbc3d3, #ffd6e1); /* girlish gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Loading & Empty Text */
+.loading-text,
+.empty-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #8b6a7c; /* muted plum */
+}
+
+/* Cart Items List */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* 🌸 Cart Item Card */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #ffffff; /* card background */
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 6px 6px 16px #e0c1d9, -6px -6px 16px #ffffff; /* soft 3D depth */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 8px 8px 20px #d8a8cc, -8px -8px 20px #ffffff;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.cart-item-details h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #4a2f3f; /* deep plum */
+}
+
+.cart-item-details p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #6b4c5e; /* muted purple */
+}
+
+/* 🌸 Cart Summary Box */
+.cart-summary {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f7c4d9, #f5a6c5, #f9d2e5); /* girlish gradient */
+  color: #4a2f3f; /* text deep plum */
+  font-weight: 600;
+  box-shadow: 8px 8px 22px rgba(0,0,0,0.15);
+}
+
+.cart-summary h3 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.6rem 0;
+  font-size: 1.1rem;
+}
+
+.summary-row.total {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  padding-top: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+/* 🌸 Checkout Button */
+.checkout-button {
+  width: 100%;
+  margin-top: 1.5rem;
+  background: linear-gradient(135deg, #fbb1c9, #f66fa3); /* girlish gradient */
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.3s ease;
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+}
+
+.checkout-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #f66fa3, #e8558f);
+}

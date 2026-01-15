@@ -1,0 +1,52 @@
+/* Page container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Heading */
+.container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ff5fa2;
+  font-weight: bold;
+}
+
+/* Order card */
+.card {
+  border-radius: 16px;
+  background: linear-gradient(135deg, #fff0f6, #ffe4ef);
+  box-shadow: 0 10px 25px rgba(255, 95, 162, 0.25);
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Text */
+.card p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.card h5 {
+  color: #ff2f92;
+  font-weight: 600;
+}
+
+/* Products list */
+.card ul {
+  padding-left: 18px;
+}
+
+.card li {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* Error */
+.text-danger {
+  color: #ff1744 !important;
+}

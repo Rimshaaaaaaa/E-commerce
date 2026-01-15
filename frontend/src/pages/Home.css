@@ -1,0 +1,128 @@
+.home-wrapper {
+    background: #fff0f5;
+    font-family: 'Poppins', sans-serif;
+    color: #4a2f3f;
+    padding-bottom: 50px;
+  }
+  
+  /* Hero Slider */
+  .hero-slider .slider-item img {
+    width: 100%;
+    border-radius: 20px;
+    max-height: 500px;
+    object-fit: cover;
+    box-shadow: 6px 6px 25px rgba(247, 143, 179, 0.15);
+  }
+  
+  /* Promo Banner */
+  .promo-banner {
+    background: linear-gradient(135deg, #f7a1c4, #fbc3d3);
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 14px;
+    margin: 0 10px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 4px 4px 15px rgba(247, 143, 179, 0.2);
+  }
+  
+  /* Categories */
+  .categories h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  
+  .category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+  }
+  
+  .category-btn {
+    background: #fff;
+    border: 2px solid #f7a1c4;
+    color: #4a2f3f;
+    padding: 8px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .category-btn.active,
+  .category-btn:hover {
+    background: linear-gradient(135deg, #f7a1c4, #f78fb3);
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(247, 143, 179, 0.35);
+  }
+  
+  .category-btn.reset {
+    border-color: #ccc;
+    color: #555;
+  }
+  
+  /* Featured Products Grid */
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  
+  /* Newsletter / CTA */
+  .newsletter-cta {
+    background: linear-gradient(135deg, #f7d6e0, #fbc6d8);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px 10px;
+    box-shadow: 6px 6px 25px rgba(247, 143, 179, 0.15);
+  }
+  
+  .newsletter-cta h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .newsletter-form input {
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: 1px solid #f7a1c4;
+    width: 250px;
+    max-width: 100%;
+  }
+  
+  .newsletter-form button {
+    background: linear-gradient(135deg, #f7a1c4, #f78fb3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 14px rgba(247, 143, 179, 0.35);
+  }
+  
